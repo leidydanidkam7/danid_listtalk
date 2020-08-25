@@ -1,0 +1,402 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-image: url(../photo-of-people-putting-their-hands-up-3228685.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x:center ;
+    height: 700px;
+}
+
+.navegar{
+    width: 100%;
+    margin: 0px auto;
+    background: #000000;
+}
+
+.navegar ul{
+    list-style: none;
+    text-align: center;
+}
+
+.menu li{
+    position: relative;
+    display: inline-block;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.menu img{
+    height: 50px;
+    width: 50px;
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.menu li a{
+    display: block;
+    padding: 15px 20px;
+    color: #ffffff;
+    font-family: lato;
+    text-decoration: none;
+}
+
+.menu li a:hover{
+    color: darkblue;
+    transition: 0.3s;
+}
+
+.menuser{
+    position: absolute;
+    background: #ffffff;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 0.4s ;
+}
+
+.menuser li a{
+    display: block;
+    padding: 15px;
+    color: #000000;
+    font-family: lato;
+    text-decoration: none;
+}
+
+.menu li:hover .menuser{
+    visibility: visible;
+    opacity: 1;
+}
+
+.content{
+    padding-top: 30px;
+}
+
+.content h1{
+    text-align: center;
+    font-family: lato;
+    color: whitesmoke;
+    font-size: 50px;
+}
+
+.content h2{
+    text-align: center;
+    font-family: lato;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #0f0e0e;
+    text-align: center;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: MuseoModerno;
+}
+
+#adopcion{
+    background: rgb(74, 107, 177);
+    width: 100%;
+    height: 700px;
+}
+
+#adopcion .introad img{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 590px;
+}
+
+#adopcion .introad h1{
+    text-align: center;
+    font-family: lato;
+    color: #000000;
+    padding-top: 30px;
+}
+
+#adopcion .introad p{
+    text-align: center;
+    font-family: lato;
+    color: #000000;
+    padding-bottom: 60px;
+}
+
+.card{
+    margin-top: 50px;
+    margin-left: 60px;
+    height: 300px;
+    width: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.card-b{
+    margin-top: 50px;
+    margin-left: 60px;
+    height: 300px;
+    width: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.card-c{
+    margin-top: 50px;
+    margin-left: 60px;
+    height: 300px;
+    width: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.card-d{
+    margin-top: 50px;
+    margin-left: 60px;
+    height: 300px;
+    width: 250px;
+    background-size: cover;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.card .content-card h1{
+    text-align: center;
+    font-family: lato;
+    color: whitesmoke;
+}
+
+.card .content-card button{
+    margin-top: 150px;
+    margin-left: 90px;
+    padding: 15px;
+    font-family: lato;
+    border-style: none;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.card .content-card button:hover{
+    transition: 0.4;
+    color: rgb(255, 255, 255);
+    background-color: rgb(26, 135, 238);
+}
+
+.card-b .content-card h1{
+    text-align: center;
+    font-family: lato;
+    color: #ffffff;
+}
+
+.card-b .content-card button{
+    margin-top: 150px;
+    margin-left: 90px;
+    padding: 15px;
+    font-family: lato;
+    border-style: none;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.card-b .content-card button:hover{
+    transition: 0.4;
+    color: rgb(255, 255, 255);
+    background-color: rgb(33, 131, 211);
+}
+
+.card-c .content-card h1{
+    text-align: center;
+    font-family: lato;
+    color: #ffffff;
+}
+
+.card-c .content-card button{
+    margin-top: 150px;
+    margin-left: 90px;
+    padding: 15px;
+    font-family: lato;
+    border-style: none;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.card-c .content-card button:hover{
+    transition: 0.4;
+    color: rgb(255, 255, 255);
+    background-color: rgb(64, 161, 252);
+}
+
+.card-d .content-card h1{
+    text-align: center;
+    font-family: lato;
+    color: #ffffff;
+}
+
+.card-d .content-card button{
+    margin-top: 150px;
+    margin-left: 90px;
+    padding: 15px;
+    font-family: lato;
+    border-style: none;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+
+.card-d .content-card button:hover{
+    transition: 0.4;
+    color: rgb(255, 255, 255);
+    background-color: rgb(72, 155, 233);
+}
+#nosotros{
+    background:whitesmoke;
+    width: 100%;
+    height: 450px;
+}
+
+#nosotros .content-nosotros h1{
+    text-align: center;
+    color: #000000;
+    font-family: lato;
+    padding-top: 20px;
+}
+
+#nosotros .content-nosotros p{
+    text-align: justify;
+    color: #000000;
+    font-family: lato;
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+#nosotros .content-nosotros img{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 600px;
+}
+
+#vision-nosotros{
+    background: rgb(64, 121, 187);
+    width: 100%;
+    height: 420px;
+}
+
+#vision-nosotros .content-vision img{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 600px;
+}
+
+#vision-nosotros .content-vision h1{
+    text-align: center;
+    color: #ffffff;
+    font-family: lato;
+    margin-top: 30px;
+}
+
+#vision-nosotros .content-vision p{
+    text-align: justify;
+    color: #ffffff;
+    font-family: lato;
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+#mision-nosotros{
+    background:whitesmoke;
+    width: 100%;
+    height: 420px;
+}
+
+#mision-nosotros .content-mision img{
+    height: 100px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 600px;
+}
+
+#mision-nosotros .content-mision h1{
+    text-align: center;
+    color: #000000;
+    font-family: lato;
+    margin-top: 30px;
+}
+
+#mision-nosotros .content-mision p{
+    text-align: justify;
+    color: #000000;
+    font-family: lato;
+    margin-top: 30px;
+    margin-left: 90px;
+    margin-right: 90px;
+}
+
+#registro{
+    background-position-x: right;
+    background-size: cover;
+    width: 100%;
+    height: 700px;
+}
+
+#registro .contenedor-registro{
+    width: 700px;
+    height: 450px;
+    background-image: url(../señora\ y\ señor.jpg);
+    margin: 80px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+#registro .contenedor-registro .titulo h1{
+    font-family: lato;
+    color: black;
+    text-align: center;
+}
+
+#registro .contenedor-registro .campos{
+    margin-top: 10px;
+    margin-left: 140px;
+}
+
+#registro .contenedor-registro .campos input{
+    margin-bottom: 35px;
+    margin-right: 35px;
+    padding: 5px;
+    text-align: center;
+    border-color: transparent;
+    background-color: black;
+    border-radius: 5px;
+    font-family: lato;
+    font-weight: 900;
+}
+
+#registro .contenedor-registro .boto button{
+    margin-left: 325px;
+    background: #ffffff;
+    border-color: transparent;
+    display: inline-block;
+    border-radius: 5px;
+    font-family: lato;
+    padding: 5px;
+    font-weight: 900;
+}
+
+#registro .contenedor-registro .boto button:hover{
+    color: rgb(125, 173, 247);
+    transition: 0.04s;
+}
